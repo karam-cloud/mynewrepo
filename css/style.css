@@ -1,0 +1,32 @@
+.text{
+    width: 80%;
+    bottom: 10px;
+    left: 10%;
+    padding: 2px;
+}
+img{
+    height: 280px;
+    object-fit:cover;
+}
+.light-box{
+background-color: rgba(0, 0, 0,.8);
+
+}
+.small-box {
+    width: 40.1%;
+    height: 50vh;
+    background-image: url('../images/bg.jpg');
+    background-size:cover;
+    
+    position: relative;
+}
+#exit{
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.small-box i{
+    cursor: pointer;
+    margin: 10px;
+    color:rgba(17, 17, 17, 0.603);
+}
